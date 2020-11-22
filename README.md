@@ -1,24 +1,12 @@
 # PS-Menu
 Simple module to generate interactive console menus (like yeoman)
 
-# Examples:
+# Example:
 
 ```powershell
 menu @("option 1", "option 2", "option 3")
 ```
- ![Example](https://github.com/chrisseroka/ps-menu/raw/master/docs/example1.gif)
 
-More useful example:
-
- ![Example](https://github.com/chrisseroka/ps-menu/raw/master/docs/example2.gif)
-
-# Installation
-
-You can install it from the PowerShellGallery using PowerShellGet
-
-```powershell
-Install-Module PS-Menu
-```
 # Features
 
 * Returns value of selected menu item
@@ -27,9 +15,7 @@ Install-Module PS-Menu
 * Navigation with `j/k` (vim style)
 * Esc key quits the menu (`null` value returned)
 
-# Contributing
+# Forked From
 
-* Source hosted at [GitHub][repo]
-* Report issues/questions/feature requests on [GitHub Issues][issues]
+> https://github.com/chrisseroka/ps-menu
 
-Pull requests are very welcome! 
